@@ -9,6 +9,11 @@
     "dev": "nodemon server.js",
     "test": "jest"
   },
+  "jest": {
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/miyurugunarathna/todo-backend.git"
@@ -35,6 +40,8 @@
     "mongoose": "^6.2.7"
   },
   "devDependencies": {
+    "@babel/preset-env": "^7.16.11",
+    "babel-jest": "^27.5.1",
     "jest": "^27.5.1",
     "nodemon": "^2.0.15",
     "supertest": "^6.2.2"
