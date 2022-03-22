@@ -28,6 +28,12 @@ Start the server
   npm run dev
 ```
 
+Start testing
+
+```bash
+  npm run test
+```
+
 
 ## ✨Tech Used
 
